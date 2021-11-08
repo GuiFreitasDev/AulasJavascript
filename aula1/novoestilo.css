@@ -4,6 +4,7 @@ header, footer{
 
 body {
     background-color: rgb(127, 150, 255);
+    margin: 0px;
 }
 
 section {
@@ -29,4 +30,22 @@ input {
     height: 190px;
     width: 100px;
     background-color: #c1ffea;
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 80%;
+    }
+    span {
+        display: block;
+    }
+    form {
+        padding: 10px;
+    }
 }
