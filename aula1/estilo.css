@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(127, 150, 255);
+}
+
+.contain {
+    width: 900px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: aliceblue;
+    border: 3px solid rgb(88, 84, 84, 0.8);
+    border-radius: 20px;
+    padding: 50px 0px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 50%;
+}

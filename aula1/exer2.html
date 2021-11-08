@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="novoestilo.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Treinando Javascript</h1>
+    </header>
+
+    <section>
+        <div id="caixa1">
+            <form>
+                <fieldset>
+                    <legend>Taboada</legend>
+                    <label for="num">De qual número você que a taboada:<br></label>
+                    <input type="number" name="num" id="num"><br>
+                    <label for="sel">Qual a operação da taboada:<br></label>
+                    <input type="radio" name="sel" id="soma" checked> Soma 
+                    <input type="radio" name="sel" id="subi"> Subitração
+                    <input type="radio" name="sel" id="multi"> Multiplicação
+                    <input type="radio" name="sel" id="divi"> Divisão <br>
+                    <input type="button" value="Resultado" onclick="calcular()">
+                    <div id="result">
+                        Aguardando...
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="caixa2">
+        </div>
+    </section>
+
+    <footer>
+        Por <a href="#" target="_blank" rel="noopener noreferrer">GuiFreitasDev</a>
+    </footer>
+
+    <script src="novoscript.js"></script>
+</body>
+</html>
